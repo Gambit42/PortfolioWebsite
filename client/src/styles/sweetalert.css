@@ -1,0 +1,25 @@
+.swal-icon {
+  overflow-y: hidden;
+}
+
+.swal-title {
+  font-family: "rubik";
+  color: black;
+}
+.swal-text {
+  color: ##374151;
+}
+
+.swal-button {
+  background: linear-gradient(
+    90deg,
+    hsla(234, 89%, 74%, 1) 0%,
+    hsla(213, 94%, 68%, 1) 100%
+  );
+  font-family: "karla";
+}
+.swal-button:not([disabled]):hover {
+  border: 1px solid #60a5fa;
+  background: #fff;
+  color: #60a5fa;
+}
